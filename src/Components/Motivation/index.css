@@ -1,0 +1,139 @@
+.text{
+    width: 750px;
+    margin: 0 auto;
+    color: white;
+    text-align: justify;
+    background-color: rgba(15, 15, 15,.5);
+    height: 100px;
+    font-family: "PT Sans", sans-serif;
+    padding: 8px;
+    border-radius: 20px;
+}
+
+.bg{
+    background-color: rgba(212, 213, 214,20%);
+    width: 800px;
+    height: 100px;
+    padding: 20px;
+    padding-bottom: 25px;
+    margin: 0 auto;
+
+}
+
+@media screen and (max-width:720px){
+    .text{
+        width:90vw;
+        color: white;
+        text-align: justify;
+        background-color: rgba(15, 15, 15,.5);
+        height: 100px;
+        font-family: "PT Sans", sans-serif;
+        padding: 8px;
+        border-radius: 20px;
+        margin: 0 auto;
+    }
+    
+    .bg{
+        background-color: rgba(212, 213, 214,20%);
+        width: 97vw;
+        margin: 0 auto;
+        height: 100px;
+        padding: 20px;
+        padding-bottom: 25px;
+    } 
+}
+
+@media screen and (max-width:480px){
+    .text{
+        width: 175vw;
+        color: white;
+        text-align: justify;
+        background-color: rgba(15, 15, 15,.5);
+        height: 100px;
+        font-family: "PT Sans", sans-serif;
+        padding: 8px;
+        border-radius: 20px;
+        margin: 0 auto;
+    }
+    
+    .bg{
+        background-color: rgba(212, 213, 214,20%);
+        width: 175vw;
+        margin: 0 auto;
+        height: 100px;
+        padding: 20px;
+        padding-bottom: 25px;
+    }    
+}
+
+@media screen and (max-width:414px){
+    .text{
+        width: 190vw;
+        color: white;
+        text-align: justify;
+        background-color: rgba(15, 15, 15,.5);
+        height: 100px;
+        font-family: "PT Sans", sans-serif;
+        padding: 8px;
+        border-radius: 20px;
+        margin: 0 auto;
+    }
+    
+    .bg{
+        background-color: rgba(212, 213, 214,20%);
+        width: 212vw;
+        margin: 0 auto;
+        height: 100px;
+        padding: 20px;
+        padding-bottom: 25px;
+    }    
+   
+}
+
+@media screen and (max-width:375px) {
+    .text{
+        width: 190vw;
+        color: white;
+        text-align: justify;
+        background-color: rgba(15, 15, 15,.5);
+        height: 100px;
+        font-family: "PT Sans", sans-serif;
+        padding: 8px;
+        border-radius: 20px;
+        margin: 0 auto;
+    }
+    
+    .bg{
+        background-color: rgba(212, 213, 214,20%);
+        width: 212vw;
+        margin: 0 auto;
+        height: 100px;
+        padding: 20px;
+        padding-bottom: 25px;
+    }    
+      
+}
+
+@media screen and (max-width:320px) {
+    .text{
+        width: 190vw;
+        color: white;
+        text-align: justify;
+        background-color: rgba(15, 15, 15,.5);
+        height: 100px;
+        font-family: "PT Sans", sans-serif;
+        padding: 8px;
+        border-radius: 20px;
+        margin: 0 auto;
+    }
+    
+    .bg{
+        background-color: rgba(212, 213, 214,20%);
+        width: 212vw;
+        margin: 0 auto;
+        height: 100px;
+        padding: 20px;
+        padding-bottom: 25px;
+    }    
+      
+}
