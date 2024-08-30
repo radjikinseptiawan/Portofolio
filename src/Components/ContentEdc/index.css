@@ -1,0 +1,15 @@
+.education-box{
+    margin: 5px;
+    color: white;
+    padding: 20px;
+    width: 400px;
+    background-color: #293c55;
+    transition:all 300ms ease-in-out;
+    border-radius: 10px;
+    border-bottom:5px #1A9FFF solid;
+}
+
+.education-box:hover{
+    cursor: pointer;
+    margin-left: 15px;
+}
