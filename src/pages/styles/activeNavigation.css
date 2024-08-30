@@ -21,3 +21,9 @@
     height: 845px;
     overflow-y: scroll;
 }
+
+body{
+    margin: 0;
+    padding: 0;
+    background:linear-gradient(to right, #171d25,#161f2b,#1e4541,#123336,#0e2145);
+  }
