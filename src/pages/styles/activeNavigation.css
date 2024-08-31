@@ -8,7 +8,11 @@
 .containers{
     display: flex;
 }
-
+@media screen and (max-width:720px){
+    .containers{
+        display: block;
+    }
+}
 .box-certified{
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 140px;
@@ -19,7 +23,7 @@
 .certified{
     width: 600px;
     height: 845px;
-    overflow-y: scroll;
+    overf0low-y: scroll;
 }
 
 body{

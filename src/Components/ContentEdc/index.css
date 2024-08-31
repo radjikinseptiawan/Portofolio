@@ -13,3 +13,33 @@
     cursor: pointer;
     margin-left: 15px;
 }
+
+@media screen and (max-width:720px) {
+    .education-box{
+        width: 265px;
+    }
+}
+
+@media screen and (max-width:480px){
+    .education-box{
+        width: 265px;
+    }
+}
+
+@media screen and (max-width:420px){
+    .education-box{
+        width: 200px;
+    }
+}
+
+@media screen and (max-width:375px){
+    .education-box{
+        width: 180px;
+    }
+}
+
+@media screen and (max-width:320px){
+    .education-box{
+        width:300px ;
+    }
+}

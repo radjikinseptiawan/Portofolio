@@ -6,6 +6,11 @@
     border: 5px solid #1A9FFF;
 }
 
+.cardAdv img{
+    width:500px;
+    height: 200px;
+}
+
 .btn-credential{
     background-color: #079442;
     border: 5px solid #079442;
@@ -28,4 +33,26 @@
 }
 .btn-credential:nth-child(3){
     cursor:not-allowed;
+}
+
+@media screen and (max-width:720px) {
+    .cardAdv{
+        width: 250px;
+        margin: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 8px;
+        border: 5px solid #1A9FFF;
+    }        
+    .cardAdv img{
+        width:250px;
+        height: 200px;
+    }
+    .btn-credential{
+        background-color: #079442;
+        border: 5px solid #079442;
+        padding: 2px;
+        border-radius: 20px ;
+        text-decoration: none;
+        color: white;
+    }   
 }

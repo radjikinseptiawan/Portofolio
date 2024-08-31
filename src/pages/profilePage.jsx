@@ -30,14 +30,14 @@ export default function profilePage() {
   <Navigation class1={`active`}/>
 </div>
 
-    <div data-aos = 'fade-down' className='box'>
+    <div className='box'>
       <Profile/>
     </div>
-    <div data-aos = "fade-right">
+    <div>
     <Motto/>
     </div>
 
-    <div className='border' data-aos="zoom-out-down">
+    <div className='border'>
       <h1>Projects</h1>
       <div className="box-grid">
         <Cards images={Project[1].img} title={Project[1].title} dataAos={'flip-left'}></Cards>

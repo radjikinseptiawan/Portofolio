@@ -8,7 +8,6 @@ export default function ExperiencePage() {
   return (
     <>
         <Navigation class3={`active`}></Navigation>
-        <div></div>
     </>
   )
 }
